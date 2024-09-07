@@ -1,0 +1,12 @@
+{
+  "name": "c-rps",
+  "version": "1.0.0",
+  "description": "Rockpaper scissors project made in C",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "play": "gcc -o build rock-paper-scissors.c && ./build"
+  },
+  "author": "",
+  "license": "ISC"
+}
